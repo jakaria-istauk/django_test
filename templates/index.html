@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>Hello Pyhon</h1>
+<div>
+    <p>
+        Name: {{ name|lower }}
+    </p>
+    <p>
+        Country: {{ country }}
+    </p>
+    <p>
+        {% for num in list %}
+        {% if num <= 3 %} <h{{ num }}>Life is cool, be positive</h {{ num }}>
+            {% else %}
+            <h {{ num }}>Life is Difficult</h {{ num }}>
+            {% endif %}
+            {% endfor %}
+    </p>
+</div>
+
+{% endblock %}

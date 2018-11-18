@@ -1,1 +1,1 @@
-web: gunicorn ch2_template_project.wsgi --log-file -
+web: gunicorn ch2_template_project.wsgi

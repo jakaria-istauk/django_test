@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 Django==2.0.7
+=======
+>>>>>>> fb5e0627d2e3b8b635692c8265ee82b80ea033ea
 Jinja2==2.6
 Werkzeug==0.8.3
 certifi==0.0.8
 chardet==1.0.1
+<<<<<<< HEAD
 gunicorn==19.9.0
 requests==0.11.1
+=======
+requests==0.11.1
+>>>>>>> fb5e0627d2e3b8b635692c8265ee82b80ea033ea
